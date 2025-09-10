@@ -8,10 +8,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">TrustableAcc</h3>
+            <h3 className="text-2xl font-bold mb-4">CPA ONE</h3>
             <p className="text-gray-300 mb-4">
-              Your trusted partner for professional accounting and financial services. 
-              We help businesses grow with reliable financial solutions.
+              At CPA ONE, we provide reliable back-office support for CPA firms across the U.S. and Canada, helping you focus on clients and growth while we manage the operations.
             </p>
             <div className="flex space-x-4">
               <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
@@ -59,14 +58,14 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span>info@trustableacc.com</span>
+                <span>info@cpaone.com</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 TrustableAcc. All rights reserved.</p>
+          <p>&copy; 2025 CPA ONE. All rights reserved.</p>
         </div>
       </div>
     </footer>

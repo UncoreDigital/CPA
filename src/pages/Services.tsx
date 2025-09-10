@@ -1,85 +1,62 @@
 import React from 'react';
-import { Calculator, FileText, TrendingUp, Users, DollarSign, Shield, CheckCircle } from 'lucide-react';
+import { Calculator, FileText, TrendingUp, Users, DollarSign, Shield, CheckCircle, } from 'lucide-react';
 
 const Services: React.FC = () => {
   const services = [
     {
       icon: <Calculator className="w-12 h-12 text-blue-600" />,
       title: "Tax Preparation & Planning",
-      description: "Comprehensive tax services to minimize your liability and maximize your savings.",
+      description: "Our expert bookkeeping and accounting services streamline your financial processes and help your firm stay organized. We provide consistent, accurate, and real-time data entry, account reconciliations, and financial record management.",
       features: [
-        "Individual & Business Tax Returns",
-        "Tax Planning & Strategy",
-        "IRS Representation",
-        "Multi-State Tax Filing",
-        "Quarterly Tax Estimates"
+        "Complete and Accurate Records: All financial transactions are entered and recorded promptly, reducing errors and improving financial clarity.",
+        "Timely Reports: Generate monthly, quarterly, or annual financial statements for your firm and clients, keeping everyone up-to-date.",
+        "Customized Solutions: Whether it’s cash or accrual accounting, we tailor our bookkeeping processes to meet your firm’s specific needs."
       ],
-      price: "Starting at $299"
+      
     },
     {
       icon: <FileText className="w-12 h-12 text-blue-600" />,
-      title: "Bookkeeping & Accounting",
-      description: "Professional bookkeeping services to keep your financial records accurate and up-to-date.",
+      title: "Tax Preparation & Filing Support",
+      description: "Tax season can be a stressful time for any CPA firm. Our back-office tax services ensure that your firm is prepared and that your clients’ filings are completed accurately and on time. We offer:",
       features: [
-        "Monthly Financial Statements",
-        "Accounts Payable/Receivable",
-        "Bank Reconciliation",
-        "Expense Tracking",
-        "QuickBooks Setup & Training"
+        "Tax Return Preparation: Comprehensive support for individual, corporate, and partnership tax returns, ensuring compliance with tax laws in the USA and Canada.",
+        "Tax Strategy Consultation: We work with your firm to strategize and optimize your clients’ tax positions, helping them minimize liabilities and maximize deductions.",
+        "Timely Filing: From federal to state/provincial returns, we assist in filing on time to avoid penalties."
       ],
-      price: "Starting at $199/month"
+      
     },
     {
       icon: <TrendingUp className="w-12 h-12 text-blue-600" />,
-      title: "Financial Planning",
-      description: "Strategic financial planning to help you achieve your long-term business goals.",
+      title: "Payroll Processing & Compliance",
+      description: "Managing payroll can be cumbersome and time-consuming. We offer seamless payroll processing services that ensure timely and accurate employee payments.",
       features: [
-        "Cash Flow Analysis",
-        "Budget Planning & Forecasting",
-        "Investment Advisory",
-        "Retirement Planning",
-        "Risk Assessment"
+        "Payroll Calculations: We manage employee wages, bonuses, and commissions, calculating federal and state/provincial taxes and deductions.",
+        "Direct Deposit: Efficient direct deposit services for employees, ensuring timely and hassle-free payments.",
+        "Compliance Assurance: We ensure that all payroll taxes and filings are completed in full compliance with IRS, CRA, and state/provincial regulations."
       ],
-      price: "Starting at $499"
+      
     },
     {
       icon: <Users className="w-12 h-12 text-blue-600" />,
-      title: "Business Consulting",
-      description: "Expert guidance to help your business grow and operate more efficiently.",
+      title: "Financial Reporting & Analysis",
+      description: "In today’s fast-paced business environment, insightful financial reporting is crucial for strategic decision-making. We provide in-depth financial reports that give your firm a clear understanding of both internal and client-specific financial health.",
       features: [
-        "Business Structure Planning",
-        "Financial Analysis",
-        "Performance Metrics",
-        "Growth Strategy",
-        "Operational Efficiency"
+        "Balance Sheets & Income Statements: We generate accurate and timely reports that allow you to assess profitability, financial standing, and performance metrics.",
+        "Cash Flow Statements: We help you monitor and manage cash flow, ensuring liquidity and operational stability.",
+        "Financial Forecasting & Budgeting: We assist in preparing financial forecasts and budgets, helping your firm and clients plan for future growth."
       ],
-      price: "Starting at $150/hour"
+      
     },
     {
       icon: <DollarSign className="w-12 h-12 text-blue-600" />,
-      title: "Payroll Services",
-      description: "Complete payroll management to ensure accurate and timely employee payments.",
+      title: "Audit & Assurance Support",
+      description: "Auditing is a critical part of many accounting services. Our experienced team provides full audit support to ensure that all documentation, financial statements, and compliance aspects are thoroughly organized and ready for review.",
       features: [
-        "Payroll Processing",
-        "Tax Withholding & Filing",
-        "Direct Deposit Setup",
-        "Employee Self-Service Portal",
-        "Compliance Management"
+        "Audit Preparation: We organize and prepare all necessary documentation for audit reviews, ensuring compliance with accounting standards and regulations.",
+        "Internal Controls & Risk Management: We assess and implement internal controls to prevent errors and fraud, safeguarding your clients’ financial data.",
+        "Comprehensive Reporting: We assist with detailed audit reports, identifying potential issues and offering actionable insights."
       ],
-      price: "Starting at $99/month"
-    },
-    {
-      icon: <Shield className="w-12 h-12 text-blue-600" />,
-      title: "Audit & Assurance",
-      description: "Professional audit services to ensure financial accuracy and compliance.",
-      features: [
-        "Financial Statement Audits",
-        "Internal Control Reviews",
-        "Compliance Audits",
-        "Risk Assessment",
-        "Management Letter Reports"
-      ],
-      price: "Custom Pricing"
+    
     }
   ];
 
@@ -129,14 +106,7 @@ const Services: React.FC = () => {
                     ))}
                   </div>
                   
-                  <div className="border-t pt-6">
-                    <div className="text-center">
-                      <div className="text-2xl font-bold text-blue-600 mb-4">{service.price}</div>
-                      <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200">
-                        Get Started
-                      </button>
-                    </div>
-                  </div>
+               
                 </div>
               </div>
             ))}
@@ -144,28 +114,54 @@ const Services: React.FC = () => {
         </div>
       </section>
 
-      {/* Industries Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Industries We Serve
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our expertise spans across multiple industries, allowing us to provide 
-              specialized solutions tailored to your specific business needs.
-            </p>
-          </div>
+  {/* Industries Section */}
+<section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Industries We Serve
+      </h2>
+      <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        We provide specialized back-office services for CPA firms in a variety of industries, 
+        helping your firm cater to clients across sectors:
+      </p>
+    </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {industries.map((industry, index) => (
-              <div key={index} className="bg-gray-50 p-6 rounded-lg text-center hover:bg-blue-50 hover:text-blue-600 transition-colors duration-200 cursor-pointer">
-                <div className="font-semibold">{industry}</div>
-              </div>
-            ))}
-          </div>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      {[
+        {
+          title: "Corporate Accounting",
+          desc: "Support for large businesses managing complex structures, multi-state/provincial operations, and compliance."
+        },
+        {
+          title: "Franchise Accounting",
+          desc: "Expertise in managing franchise finances, royalty management, local tax filing, and reporting."
+        },
+        {
+          title: "Property Management",
+          desc: "Specialized support for property managers, including rent roll management, landlord reporting, and tax filing."
+        },
+        {
+          title: "Restaurant Accounting",
+          desc: "Tailored services for restaurants, including inventory tracking, cost of goods sold (COGS) analysis, and compliance."
+        },
+        {
+          title: "Auto Dealerships",
+          desc: "Support for dealerships including vehicle sales, F&I, inventory, and service department finances."
+        }
+      ].map((industry, index) => (
+        <div
+          key={index}
+          className="bg-gray-50 p-6 rounded-lg text-center hover:bg-blue-50 hover:shadow-lg transition duration-200"
+        >
+          <div className="font-semibold text-lg mb-2">{industry.title}</div>
+          <p className="text-sm text-gray-600">{industry.desc}</p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Process Section */}
       <section className="py-20 bg-blue-900 text-white">

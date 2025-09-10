@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@trustableacc.com</span>
+                <span>info@cpaone.com</span>
               </div>
             </div>
             <div className="hidden md:block">
@@ -45,7 +45,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <div className="text-2xl font-bold text-blue-900">
-              <img src='/src/logo.png'/>
+              {/* <img src='/src/logo.png'/> */}
+              <p className="text-3xl md:text-4xl font-bold">CPA ONE</p>
             </div>
           </div>
 

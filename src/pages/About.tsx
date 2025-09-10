@@ -53,7 +53,7 @@ const About: React.FC = () => {
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About TrustableAcc</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About CPA ONE</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
               For over 15 years, we've been helping businesses navigate their financial challenges 
               with expert guidance, innovative solutions, and unwavering commitment to excellence.
@@ -70,19 +70,14 @@ const About: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in 2009, TrustableAcc began as a small accounting firm with a big vision: 
-                  to provide personalized, high-quality financial services that help businesses thrive.
+                 At CPA ONE, we specialize in providing high-quality, reliable back-office support to CPA firms across the United States and Canada. As your trusted partner, we understand that efficient back-office operations are critical to the success of your firm. Our comprehensive services enable CPA firms to focus on client relationships, business growth, and delivering expert financial guidance, while we handle the operational complexities.
+
+
                 </p>
                 <p>
-                  What started as a two-person operation has grown into a full-service financial 
-                  consulting firm, serving over 500 clients across various industries. Our growth 
-                  has been driven by our commitment to excellence and our clients' success.
+                 With our deep expertise in accounting, tax, payroll, and financial operations, CPA ONE offers tailored back-office solutions that enhance efficiency, improve accuracy, and help your firm operate at its best. Whether your firm is small, medium-sized, or large, we have the tools and skills to support you effectively.
                 </p>
-                <p>
-                  Today, we combine traditional accounting expertise with modern technology to 
-                  deliver comprehensive financial solutions that meet the evolving needs of 
-                  today's businesses.
-                </p>
+               
               </div>
               <div className="mt-8 grid grid-cols-2 gap-6">
                 <div className="text-center">

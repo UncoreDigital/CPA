@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6 text-blue-600" />,
       title: "Email",
-      details: ["info@trustableacc.com", "support@trustableacc.com"],
+      details: ["info@cpaone.com", "support@cpaone.com"],
       description: "We'll respond within 24 hours"
     },
     {
