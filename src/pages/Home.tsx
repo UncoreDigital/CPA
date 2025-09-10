@@ -371,7 +371,7 @@ const Home: React.FC = () => {
       {/* Single Image */}
       <div className="flex justify-center">
         <img
-          src="/src/softwares.jpg" // replace with your actual path
+          src="/softwares.jpg" // replace with your actual path
           alt="Softwares We Work With"
           className="max-w-full h-auto rounded-xl shadow-lg"
         />
