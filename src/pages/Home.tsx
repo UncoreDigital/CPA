@@ -17,6 +17,7 @@ import {
   Home as HomeIcon,
   Cpu,
 } from "lucide-react";
+import softwaresImg from "../assests/softwares.jpg";
 
 // 👇 Reusable scroll animation wrapper
 const FadeInSection: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -371,7 +372,7 @@ const Home: React.FC = () => {
       {/* Single Image */}
       <div className="flex justify-center">
         <img
-          src="src/public/softwares.jpg" // replace with your actual path
+          src={softwaresImg} // replace with your actual path
           alt="Softwares We Work With"
           className="max-w-full h-auto rounded-xl shadow-lg"
         />
