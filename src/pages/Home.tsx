@@ -17,7 +17,7 @@ import {
   Home as HomeIcon,
   Cpu,
 } from "lucide-react";
-import softwaresImg from "../assests/softwares.jpg";
+import softwaresImg from "../assests/softwares.png";
 
 // 👇 Reusable scroll animation wrapper
 const FadeInSection: React.FC<{ children: React.ReactNode }> = ({ children }) => {
