@@ -6,27 +6,27 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="w-6 h-6 text-blue-600" />,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568"],
+      details: ["+1 (469) 444‑7874"],
       description: "Call us during business hours"
     },
     {
       icon: <Mail className="w-6 h-6 text-blue-600" />,
       title: "Email",
-      details: ["info@cpaone.com", "support@cpaone.com"],
+      details: ["maya@trustedbookpro.com"],
       description: "We'll respond within 24 hours"
     },
     {
       icon: <MapPin className="w-6 h-6 text-blue-600" />,
       title: "Office",
-      details: ["123 Business Ave, Suite 100", "New York, NY 10001"],
+      details: ["USA | CAN | UK | AUS"],
       description: "Visit us for in-person consultations"
     },
-    {
-      icon: <Clock className="w-6 h-6 text-blue-600" />,
-      title: "Hours",
-      details: ["Mon - Fri: 9:00 AM - 6:00 PM", "Sat: 10:00 AM - 2:00 PM"],
-      description: "Emergency support available 24/7"
-    }
+    // {
+    //   icon: <Clock className="w-6 h-6 text-blue-600" />,
+    //   title: "Hours",
+    //   details: ["Mon - Fri: 9:00 AM - 6:00 PM", "Sat: 10:00 AM - 2:00 PM"],
+    //   description: "Emergency support available 24/7"
+    // }
   ];
 
   return (

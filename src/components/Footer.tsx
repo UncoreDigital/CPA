@@ -50,15 +50,15 @@ const Footer: React.FC = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
-                <span>123 Business Ave, Suite 100<br />New York, NY 10001</span>
+                <span>USA | CAN | UK | AUS</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (469) 444‑7874</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span>info@cpaone.com</span>
+                <span>maya@trustedbookpro.com</span>
               </div>
             </div>
           </div>
