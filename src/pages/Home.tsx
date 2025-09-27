@@ -189,7 +189,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <FadeInSection>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Welcome to CPA ONE –  
+              Welcome to Trusted Book Pro –  
               <span className="text-blue-300"> Your Strategic Back Office</span>
               <br />Partner for CPA Firms
             </h1>
@@ -206,10 +206,10 @@ const Home: React.FC = () => {
           <FadeInSection>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
               <p className="text-xl text-blue-100 mb-6">
-                At CPA ONE, we specialize in providing high-quality, reliable back-office support to CPA firms across the United States and Canada. As your trusted partner, we understand that efficient back-office operations are critical to the success of your firm. Our comprehensive services enable CPA firms to focus on client relationships, business growth, and delivering expert financial guidance, while we handle the operational complexities.
+                At Trusted Book Pro, we specialize in providing high-quality, reliable back-office support to CPA firms across the United States and Canada. As your trusted partner, we understand that efficient back-office operations are critical to the success of your firm. Our comprehensive services enable CPA firms to focus on client relationships, business growth, and delivering expert financial guidance, while we handle the operational complexities.
               </p>
               <p className="text-xl text-blue-100">
-               With our deep expertise in accounting, tax, payroll, and financial operations, CPA ONE offers tailored back-office solutions that enhance efficiency, improve accuracy, and help your firm operate at its best. Whether your firm is small, medium-sized, or large, we have the tools and skills to support you effectively.
+               With our deep expertise in accounting, tax, payroll, and financial operations, Trusted Book Pro offers tailored back-office solutions that enhance efficiency, improve accuracy, and help your firm operate at its best. Whether your firm is small, medium-sized, or large, we have the tools and skills to support you effectively.
               </p>
             </div>
           </FadeInSection>
@@ -223,7 +223,7 @@ const Home: React.FC = () => {
 <section className="py-20 bg-white">
   <div className="max-w-7xl mx-auto px-6 text-center">
     <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Partner with Us</h2>
-    <p className="text-gray-600 max-w-3xl mx-auto mt-0 mb-12">At CPA ONE, we are not just another service provider—we are a dedicated partner committed to the success of your firm. Here’s why CPA firms across the USA and Canada trust us:</p>
+    <p className="text-gray-600 max-w-3xl mx-auto mt-0 mb-12">At Trusted Book Pro, we are not just another service provider—we are a dedicated partner committed to the success of your firm. Here’s why CPA firms across the USA and Canada trust us:</p>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
       {[
         {
@@ -409,7 +409,7 @@ const Home: React.FC = () => {
         <FadeInSection>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Let’s Elevate Your Firm’s Success</h2>
           <p className="text-lg text-blue-100 mb-8">
-            Partner with CPA ONE and unlock the potential for increased operational efficiency, cost savings, and strategic growth. Contact us today for a free consultation, and learn how our tailored back-office solutions can help your firm thrive.
+            Partner with Trusted Book Pro and unlock the potential for increased operational efficiency, cost savings, and strategic growth. Contact us today for a free consultation, and learn how our tailored back-office solutions can help your firm thrive.
           </p>
           <button className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition">
             Get a Free Consultation

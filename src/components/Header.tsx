@@ -26,11 +26,11 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (469) 444‑7874</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>info@cpaone.com</span>
+                <span>maya@trustedbookpro.com</span>
               </div>
             </div>
             <div className="hidden md:block">
@@ -46,7 +46,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
           <div className="flex items-center">
             <div className="text-2xl font-bold text-blue-900">
               {/* <img src='/src/logo.png'/> */}
-              <p className="text-3xl md:text-4xl font-bold">CPA ONE</p>
+              <p className="text-3xl md:text-4xl font-bold">Trusted Book Pro</p>
             </div>
           </div>
 
