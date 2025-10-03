@@ -1,7 +1,11 @@
 import React from 'react';
 import { ExternalLink, TrendingUp, Users, Award } from 'lucide-react';
 
-const Portfolio: React.FC = () => {
+interface PortfolioProps {
+  onNavigate: (page: string) => void;
+}
+
+const Portfolio: React.FC<PortfolioProps> = ({ onNavigate }) => {
   const caseStudies = [
     {
       title: "Tech Startup Growth",
@@ -235,7 +239,7 @@ const Portfolio: React.FC = () => {
           <p className="text-xl text-gray-600 mb-8">
             Let's discuss how we can help your business achieve similar results.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 inline-flex items-center">
+          <button onClick={() => onNavigate("contact")} className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 inline-flex items-center">
             Start Your Success Story
             <ExternalLink className="ml-2 w-5 h-5" />
           </button>
