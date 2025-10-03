@@ -1,7 +1,12 @@
 import React from 'react';
 import { Users, Target, Award, TrendingUp } from 'lucide-react';
 
-const About: React.FC = () => {
+
+interface AboutProps {
+  onNavigate: (page: string) => void;
+}
+
+const About: React.FC<AboutProps> = ({ onNavigate }) => {
   const values = [
     {
       icon: <Target className="w-8 h-8 text-blue-600" />,
@@ -53,7 +58,7 @@ const About: React.FC = () => {
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Trusted Book Pro</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About CPA ONE</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
               For over 15 years, we've been helping businesses navigate their financial challenges 
               with expert guidance, innovative solutions, and unwavering commitment to excellence.
@@ -70,12 +75,12 @@ const About: React.FC = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                 At Trusted Book Pro, we specialize in providing high-quality, reliable back-office support to CPA firms across the United States and Canada. As your trusted partner, we understand that efficient back-office operations are critical to the success of your firm. Our comprehensive services enable CPA firms to focus on client relationships, business growth, and delivering expert financial guidance, while we handle the operational complexities.
+                 At CPA ONE, we specialize in providing high-quality, reliable back-office support to CPA firms across the United States and Canada. As your trusted partner, we understand that efficient back-office operations are critical to the success of your firm. Our comprehensive services enable CPA firms to focus on client relationships, business growth, and delivering expert financial guidance, while we handle the operational complexities.
 
 
                 </p>
                 <p>
-                 With our deep expertise in accounting, tax, payroll, and financial operations, Trusted Book Pro offers tailored back-office solutions that enhance efficiency, improve accuracy, and help your firm operate at its best. Whether your firm is small, medium-sized, or large, we have the tools and skills to support you effectively.
+                 With our deep expertise in accounting, tax, payroll, and financial operations, CPA ONE offers tailored back-office solutions that enhance efficiency, improve accuracy, and help your firm operate at its best. Whether your firm is small, medium-sized, or large, we have the tools and skills to support you effectively.
                 </p>
                
               </div>
@@ -130,7 +135,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Team Section */}
-      {/* <section className="py-20 bg-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -159,7 +164,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-blue-900 text-white">
@@ -170,7 +175,7 @@ const About: React.FC = () => {
           <p className="text-xl text-blue-100 mb-8">
             Let's discuss how we can help your business achieve its financial goals.
           </p>
-          <button className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200">
+          <button onClick={() => onNavigate("contact")} className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200">
             Schedule a Consultation
           </button>
         </div>
