@@ -13,27 +13,25 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <Home />;
+         return <Home onNavigate={setCurrentPage} />; 
       case 'about':
-        return <About />;
+        return <About onNavigate={setCurrentPage} />;
       case 'services':
-        return <Services />;
+        return <Services onNavigate={setCurrentPage} />; 
       case 'portfolio':
-        return <Portfolio />;
+        return <Portfolio onNavigate={setCurrentPage} />; 
       case 'contact':
         return <Contact />;
       default:
-        return <Home />;
+      return <Home onNavigate={setCurrentPage} />;
     }
   };
 
   return (
     <div className="min-h-screen bg-white">
       <Header currentPage={currentPage} onNavigate={setCurrentPage} />
-      <main>
-        {renderPage()}
-      </main>
-      <Footer />
+      <main>{renderPage()}</main>
+      <Footer onNavigate={setCurrentPage} />  {/* ✅ pass setCurrentPage */}
     </div>
   );
 }
