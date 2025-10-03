@@ -45,8 +45,8 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <li onClick={() => onNavigate('services')} className="hover:text-white cursor-pointer transition-colors">Services</li>
               <li onClick={() => onNavigate('portfolio')} className="hover:text-white cursor-pointer transition-colors">Portfolio</li>
               <li onClick={() => onNavigate('contact')} className="hover:text-white cursor-pointer transition-colors">Contact</li>
-              <li className="hover:text-white cursor-pointer transition-colors">Privacy Policy</li>
-              <li className="hover:text-white cursor-pointer transition-colors">Terms of Service</li>
+              <li onClick={() => onNavigate('privacy')} className="hover:text-white cursor-pointer transition-colors">Privacy Policy</li>
+             
             </ul>
           </div>
 
